@@ -11,7 +11,6 @@ export default function Home() {
 						className='my-auto -mt-4'
 						src='./../../src/assets/cute-astronaut-working-with-computer-cartoon-vector-icon-illustration-science-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-4172-removebg-preview_cleanup.png'
 						alt='Astronaut using a laptop'
-						style={{ borderRadius: '50%' }}
 					/>
 				</div>
 
