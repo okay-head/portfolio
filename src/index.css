@@ -12,20 +12,13 @@ html{
   -moz-osx-font-smoothing: grayscale;
 }
 
-@layer components {
-	.nav-link {
-		@apply mx-4 relative;
-	}
-}
-
-
-.connect-btn:hover{
+.connect-btn{
 	background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%); 
 }
-
-.home{
-	position: relative;
+.connect-btn:hover{
+	background:transparent;
 }
+
 .home::before{
 	background: url('./assets/7756629.jpg') black center center no-repeat;
 	background-size: cover;
@@ -33,8 +26,8 @@ html{
 	position: absolute;
 	inset:0;
 	display: block;
-	background-color: rgba(0, 0, 0, 0.472);
 	width: 100%;
 	height: 100%;
-	
+	z-index: -1;
+	filter: brightness(85%);
 }
