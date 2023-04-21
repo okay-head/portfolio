@@ -10,7 +10,8 @@ export default function Navbar() {
           <Anchor>HOME</Anchor>
           <Anchor>SKILLS</Anchor>
           <Anchor>PROJECTS</Anchor>
-          <Link className='connect-btn nav-link me-0 border border-white p-2'>LET'S CONNECT</Link>
+          {/* need pseudo element for transition */}
+          <Link className='connect-btn nav-link ms-4 me-0 border border-white p-2'>LET'S CONNECT</Link>
         </nav>
       </div>
 
