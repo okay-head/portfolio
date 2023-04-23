@@ -14,7 +14,7 @@ export default function Home() {
 					/>
 				</div>
 
-				<div className='text-lg'>
+				<div className='text-lg mb-16'>
 					<h1 className='text-6xl'>Hi!</h1>
 					<h1 className='text-5xl mb-4'>I'm Shashwat Jaiswal</h1>
 					<div>
