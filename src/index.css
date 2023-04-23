@@ -5,27 +5,39 @@
 :root {
 	--bg-primary: #232325;
 	--text-heading: text-5xl;
+	--bg-purple: #220a3a;
+	--padding-y: py-10;
 }
 
-html{
+html {
 	-webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	-moz-osx-font-smoothing: grayscale;
 }
 
-.connect-btn{
-	background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%); 
+.project-card,
+.connect-btn {
+	background: linear-gradient(
+		90.21deg,
+		rgba(170, 54, 124, 0.5) -5.91%,
+		rgba(74, 47, 189, 0.5) 111.58%
+	);
 }
-.connect-btn:hover{
-	background:transparent;
+.connect-btn:hover {
+	background: transparent;
 }
 
-.home::before{
+.home::before {
 	background: url('./assets/7756629.jpg') black center center no-repeat;
 	background-size: cover;
 	content: '';
 	position: absolute;
-	inset:0;
+	inset: 0;
 	display: block;
 	z-index: -1;
 	filter: brightness(85%);
+}
+
+.cardAnchor:hover{
+	transition: 0.3s ease-out transform;
+	transform: scale(0.9);
 }
