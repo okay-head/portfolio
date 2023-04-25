@@ -3,9 +3,9 @@ import Wrapper from '../Wrapper'
 
 export default function Projects() {
 	return (
-		<div className='projects bg-[var(--bg-purple)] py-10'>
+		<div className='projects bg-[var(--bg-purple)]  py-[var(--p-section-y)]'>
 			<Wrapper>
-      <h1 className='text-5xl text-center mb-10'>Projects</h1>    
+      <h1 className='text-5xl text-center mb-20'>Projects</h1>    
 				<div className="md:grid grid-cols-2 auto-rows-fr">
           <Card source={'./../../../src/assets/github-finder-II.png'} alt={'Github finder'} caption={'Github finder'} live_url={'https://okay-head-github-finder.netlify.app/'} code_url={'https://github.com/okay-head/Github-Finder'}/> 
 

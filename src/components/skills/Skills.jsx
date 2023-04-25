@@ -3,7 +3,8 @@ import SkillCard from './SkillCard'
 export default function Skills() {
   const pth = './../../../src/assets/brand/'
 	return (
-		<div className='skills bg-[var(--bg-primary)] py-10 -mt-6 z-10 relative'>
+    // view port units for y axis padding?
+		<div className='skills bg-[var(--bg-primary)] py-[var(--p-section-y)] z-10 relative'>
       <Wrapper>
       <h1 className='text-5xl text-center mb-10'>Skills</h1>    
 				<div className=" mx-auto max-w-4xl 

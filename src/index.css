@@ -6,7 +6,8 @@
 	--bg-primary: #232325;
 	--text-heading: text-5xl;
 	--bg-purple: #220a3a;
-	--padding-y: py-10;
+	/* --padding-y: py-10; */
+	--p-section-y: 10vh;
 }
 
 html {
