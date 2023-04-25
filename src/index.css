@@ -2,12 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+	.input-style {
+		@apply my-2 mx-2 w-[98%] py-3 px-4 rounded-md text-sm md:text-base border-2 border-black outline-none text-black bg-violet-300 ;
+	}
+}
+
+/* 300 */
 :root {
 	--bg-primary: #232325;
 	--text-heading: text-5xl;
 	--bg-purple: #220a3a;
-	/* --padding-y: py-10; */
 	--p-section-y: 10vh;
+	--bg-purple2: #371a46;
+	--bg-purple3: #793b9b;
+	--bg-purple4: #3c0d4c;
 }
 
 html {
@@ -38,7 +47,21 @@ html {
 	filter: brightness(85%);
 }
 
-.cardAnchor:hover{
+.cardAnchor:hover {
 	transition: 0.3s ease-out transform;
 	transform: scale(0.95);
+}
+
+.text-gradient {
+	background: linear-gradient(
+		90.21deg,
+		rgba(170, 54, 124, 0.5) -5.91%,
+		rgba(74, 47, 189, 0.5) 111.58%
+	);
+	background-clip: text;
+	color: transparent;
+}
+
+::placeholder{
+	color: #232325c4!important;
 }
