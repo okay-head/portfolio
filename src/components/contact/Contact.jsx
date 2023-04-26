@@ -12,14 +12,11 @@ export default function Contact() {
 						<img
 							src='./../../src/assets/th-2066431090-removebg-preview.png'
 							alt='Waving astronaut'
-							className='hue-rotate-30 mx-auto w-3/4'
+							className='hue-rotate-30 mx-auto w-3/4 md:-mt-14'
 						/>
 					</div>
 
 					<div className='py-4'>
-						<h2 className='mx-auto text-left text-4xl text-[black] text-gradient py-3 mb-5 ms-2'>
-							Let's work together!
-						</h2>
 						<form action=''>
 							<input
 								type='text'
@@ -39,7 +36,7 @@ export default function Contact() {
 								placeholder='Your irrelevant message'
 								className='input-style min-h-[250px]'
 							></textarea>
-              <button id='submit' className='bg-slate-500 rounded-md border-1px border-black py-2 px-4 mx-auto block'>Send</button>
+              <button id='submit' className=' submit bg-slate-500 rounded-md border-2 border-white py-1 px-6 mx-auto block'>Send</button>
 						</form>
 					</div>
 				</div>

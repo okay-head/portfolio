@@ -25,14 +25,16 @@ html {
 }
 
 .project-card,
-.connect-btn {
+.connect-btn,
+.submit {
 	background: linear-gradient(
 		90.21deg,
 		rgba(170, 54, 124, 0.5) -5.91%,
 		rgba(74, 47, 189, 0.5) 111.58%
 	);
 }
-.connect-btn:hover {
+.connect-btn:hover,
+.submit:hover {
 	background: transparent;
 }
 
