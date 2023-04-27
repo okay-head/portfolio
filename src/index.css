@@ -17,6 +17,7 @@
 	--bg-purple2: #371a46;
 	--bg-purple3: #793b9b;
 	--bg-purple4: #3c0d4c;
+	--white-1: #f8fafc;
 }
 
 html {
@@ -66,4 +67,18 @@ html {
 
 ::placeholder{
 	color: #232325c4!important;
+}
+
+/* oh how i miss scss */
+.social{
+	transform: scale(0.85);
+}
+.social:hover .social-svg-icon{
+	fill: var(--bg-purple)!important;
+}
+.social:hover .social-svg-mask{
+	fill: #f8fafc!important;
+}
+.social:hover{
+	border: transparent;
 }

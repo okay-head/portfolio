@@ -5,7 +5,7 @@ export default function Navbar() {
 	return (
 		<header className='bg-[var(--bg-primary)] text-lg font-poppins tracking-wide'>
 			<Wrapper classVars={'flex py-7 items-center'}>
-				<Link className='font-bold text-xl py-2'>LOGO</Link>
+				<Link className='font-bold text-xl py-2'>PORTFOLIO</Link>
 
 				<nav className='hidden md:flex ms-auto items-center'>
 					<Anchor>HOME</Anchor>
