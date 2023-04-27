@@ -4,7 +4,7 @@
 
 @layer components {
 	.input-style {
-		@apply my-2 mx-2 w-[98%] py-2 px-4 rounded-md text-sm md:text-base border-2 border-black outline-none text-black bg-violet-300 ;
+		@apply my-2 mx-2 w-[98%] py-2 px-4 rounded-md text-sm md:text-base border-2 border-black outline-none text-black bg-violet-300;
 	}
 }
 
@@ -34,8 +34,7 @@ html {
 		rgba(74, 47, 189, 0.5) 111.58%
 	);
 }
-.connect-btn:hover,
-.submit:hover {
+.connect-btn:hover {
 	background: transparent;
 }
 
@@ -65,20 +64,30 @@ html {
 	color: transparent;
 }
 
-::placeholder{
-	color: #232325c4!important;
+::placeholder {
+	color: #232325c4 !important;
+}
+
+.submit {
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+}
+.submit:hover {
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.604);
 }
 
 /* oh how i miss scss */
-.social{
+.social {
 	transform: scale(0.85);
 }
-.social:hover .social-svg-icon{
-	fill: var(--bg-purple)!important;
+.social-svg-icon,.social-svg-mask{
+	transition-duration: 300ms!important;
 }
-.social:hover .social-svg-mask{
-	fill: #f8fafc!important;
+.social:hover .social-svg-icon {
+	fill: var(--bg-purple) !important;
 }
-.social:hover{
+.social:hover .social-svg-mask {
+	fill: #f8fafc !important;
+}
+/* .social:hover {
 	border: transparent;
-}
+} */

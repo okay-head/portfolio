@@ -36,7 +36,7 @@ export default function Contact() {
 								placeholder='Your irrelevant message'
 								className='input-style min-h-[250px]'
 							></textarea>
-              <button id='submit' className=' submit bg-slate-500 rounded-md border-2 border-white py-1 px-6 mx-auto block'>Send</button>
+              <button id='submit' className=' submit bg-slate-500 rounded-md py-1 px-6 mt-2 mx-auto block transition-transform duration-300 hover:-translate-y-[2px]'>Send</button>
 						</form>
 					</div>
 				</div>
