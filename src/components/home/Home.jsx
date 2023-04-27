@@ -1,6 +1,6 @@
 export default function Home() {
 	return (
-		<div className='home min-h-screen relative'>
+		<div id='home' className='home min-h-screen relative scroll-m-20'>
 			<div
 				className='home-container max-w-[1000px] min-h-[80vh] 
 			py-5 mx-8

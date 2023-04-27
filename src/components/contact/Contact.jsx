@@ -1,7 +1,7 @@
 import Wrapper from '../Wrapper'
 export default function Contact() {
 	return (
-		<div className='contact bg-[var(--bg-purple)]  py-[var(--p-section-y)]'>
+		<div id='contact' className='contact bg-[var(--bg-purple)]  py-[var(--p-section-y)] scroll-mt-[4.5rem]'>
 			<Wrapper>
 				<h1 className='text-5xl text-center mb-10 md:mb-15'>Contact</h1>
 				<div

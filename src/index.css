@@ -23,6 +23,7 @@
 html {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	scroll-behavior: smooth;
 }
 
 .project-card,
@@ -80,7 +81,7 @@ html {
 	transform: scale(0.85);
 }
 .social-svg-icon,.social-svg-mask{
-	transition-duration: 300ms!important;
+	transition-duration: 200ms!important;
 }
 .social:hover .social-svg-icon {
 	fill: var(--bg-purple) !important;
@@ -91,3 +92,8 @@ html {
 /* .social:hover {
 	border: transparent;
 } */
+
+.blur-nav{
+    background-color: #232325bf!important;
+    backdrop-filter: blur(5px)!important;
+}
