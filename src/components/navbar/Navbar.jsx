@@ -24,7 +24,7 @@ export default function Navbar() {
 					<Anchor linkTo='skills'>SKILLS</Anchor>
 					<Anchor linkTo='projects'>PROJECTS</Anchor>
 					{/* need pseudo element for transition */}
-					<a href='#contact' className='connect-btn nav-link ms-4 me-0 border border-white p-2'>
+					<a href='#contact' className='connect-btn relative  nav-link ms-4 me-0 border border-white p-2'>
 						LET'S CONNECT
 					</a>
 				</nav>

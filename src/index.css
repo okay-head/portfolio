@@ -27,7 +27,8 @@ html {
 }
 
 .project-card,
-.connect-btn,
+/* .connect-btn, */
+.connect-btn::before,
 .submit {
 	background: linear-gradient(
 		90.21deg,
@@ -35,8 +36,23 @@ html {
 		rgba(74, 47, 189, 0.5) 111.58%
 	);
 }
-.connect-btn:hover {
-	background: transparent;
+
+/* connect btn animation */
+.connect-btn::before{
+	content: "";
+	position: absolute;
+	inset: 0;
+	/* background-color: var(--white-1); */
+	transition: 300ms ease transform;
+	transform: scaleX(0);
+	transform-origin: right;
+	z-index: -1;
+}
+.connect-btn:hover.connect-btn::before{
+	transform-origin: left;
+	transform: scaleX(1)!important;
+
+
 }
 
 .home::before {
