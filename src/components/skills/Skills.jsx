@@ -7,6 +7,7 @@ export default function Skills() {
 		<div id='skills' className='skills bg-[var(--bg-primary)] py-[var(--p-section-y)] z-10 relative scroll-mt-16'>
       <Wrapper>
       <h1 className='text-5xl text-center mb-10'>Skills</h1>    
+      <div className='text-center text-xl mb-5 text-[var(--bg-purple3)]'>Technologies I've worked with</div>
 				<div className=" mx-auto max-w-4xl
         sm:grid sm:grid-cols-3 lg:grid-cols-4">
         <SkillCard source={pth+'icons8-html-5-480.png'}/>

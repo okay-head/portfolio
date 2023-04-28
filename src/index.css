@@ -38,11 +38,13 @@ html {
 }
 
 /* connect btn animation */
+/* for gradient background */
+
 .connect-btn::before{
 	content: "";
 	position: absolute;
 	inset: 0;
-	/* background-color: var(--white-1); */
+	background-color: var(--bg-primary);
 	transition: 300ms ease transform;
 	transform: scaleX(0);
 	transform-origin: right;
@@ -51,8 +53,6 @@ html {
 .connect-btn:hover.connect-btn::before{
 	transform-origin: left;
 	transform: scaleX(1)!important;
-
-
 }
 
 .home::before {
@@ -105,9 +105,6 @@ html {
 .social:hover .social-svg-mask {
 	fill: #f8fafc !important;
 }
-/* .social:hover {
-	border: transparent;
-} */
 
 .blur-nav{
     background-color: #232325bf!important;

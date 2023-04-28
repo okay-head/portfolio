@@ -8,14 +8,14 @@ export default function Home() {
 			>
 				<div className='order-last'>
 					<img
-						className='mx-auto -mt-4 md:-ms-4'
+						className='mx-auto -mt-4 w-[80%]'
 						src='./../../src/assets/cute-astronaut-working-with-computer-cartoon-vector-icon-illustration-science-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-4172-removebg-preview_cleanup.png'
 						alt='Astronaut using a laptop'
 					/>
 				</div>
 
-				<div className='text-lg mb-16'>
-					<h1 className='text-6xl'>Hi!</h1>
+				<div className='text-lg mb-16 md:mb-0'>
+					<h1 className='text-5xl'>Hi!</h1>
 					<h1 className='text-5xl mb-4'>I'm Shashwat Jaiswal</h1>
 					<div>
 						I’m a front-end developer specializing in building (and occasionally

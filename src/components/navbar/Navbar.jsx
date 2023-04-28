@@ -16,7 +16,7 @@ export default function Navbar() {
 	return (
 
 		<header className='bg-[var(--bg-primary)] text-base font-poppins tracking-wide z-30 sticky top-0'>
-			<Wrapper classVars={'flex py-4 items-center'}>
+			<Wrapper classVars={'flex py-5 items-center'}>
 				<Link className='font-bold text-lg py-2'>PORTFOLIO</Link>
 
 				<nav className='hidden md:flex ms-auto items-center'>
