@@ -1,7 +1,7 @@
 import Wrapper from '../Wrapper'
 import SkillCard from './SkillCard'
 export default function Skills() {
-  const pth = './../../../src/assets/brand/'
+  const pth = '././assets/brand/'
 	return (
     // view port units for y axis padding?
 		<div id='skills' className='skills bg-[var(--bg-primary)] py-[var(--p-section-y)] z-10 relative scroll-mt-16'>

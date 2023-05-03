@@ -1,7 +1,7 @@
 import CardAnchor from './projects/CardAnchor';
 
 export default function Card({
-	source = './../../../src/assets/github-finder-I.png',
+	source = '././assets/github-finder-I.png',
 	alt,
 	cls = '',
 	caption = 'caption',
@@ -15,8 +15,8 @@ export default function Card({
 				<h2>{caption}</h2>
 			</div>
 			<div className='card-cover bg-[#000000ac] absolute inset-0 bottom-12 flex items-center justify-center transition-opacity ease-in-out duration-300  opacity-0 group-hover:opacity-100'>
-      <CardAnchor source={'./../../../src/assets/icons8-external-link-material-sharp-96.png'} alt={'Demo'} url={live_url}/>
-      <CardAnchor source={'./../../../src/assets/icons8-github-60.png'} alt={'Code'} url={code_url}/>
+      <CardAnchor source={'././assets/icons8-external-link-material-sharp-96.png'} alt={'Demo'} url={live_url}/>
+      <CardAnchor source={'././assets/icons8-github-60.png'} alt={'Code'} url={code_url}/>
 			</div>
 		</div>
 	)

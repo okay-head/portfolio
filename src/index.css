@@ -55,7 +55,7 @@ html {
 }
 
 .home::before {
-	background: url('./assets/7756629.jpg') black center center no-repeat;
+	background: url('/assets/7756629.jpg') black center center no-repeat;
 	background-size: cover;
 	content: '';
 	position: absolute;
