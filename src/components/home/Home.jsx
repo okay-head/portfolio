@@ -1,4 +1,18 @@
+import { motion as m } from 'framer-motion'
 export default function Home() {
+	const floatVariants = {
+		float: {
+			y: [0, -30],
+			x: [0, 0,],
+			transition: {
+				duration: 2,
+				ease: ['easeOut'],
+
+				repeat: Infinity,
+				repeatType: 'reverse',
+			},
+		},
+	}
 	return (
 		<div id='home' className='home min-h-screen relative scroll-m-20'>
 			<div
@@ -7,7 +21,12 @@ export default function Home() {
 			md:grid grid-cols-2 items-center lg:mx-auto'
 			>
 				<div className='order-last'>
-					<img
+					<m.img
+						// initial={{ opacity: 0, y:'50%' }}
+						// animate={{ opacity: '100%', y:'-20%', y:'0' }}
+						// transition={{ delay: 0.2, duration: 1 }}
+						variants={floatVariants}
+						animate='float'
 						className='mx-auto -mt-4 w-[80%]'
 						src='/assets/cute-astronaut-working-with-computer-cartoon-vector-icon-illustration-science-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-4172-removebg-preview_cleanup.png'
 						alt='Astronaut using a laptop'
@@ -15,12 +34,33 @@ export default function Home() {
 				</div>
 
 				<div className='text-lg mb-16 md:mb-0'>
-					<h1 className='text-5xl'>Hi!</h1>
-					<h1 className='text-5xl mb-4'>I'm Shashwat Jaiswal</h1>
+					<div className='overflow-hidden'>
+						<m.h1
+							initial={{ y: '100%' }}
+							animate={{ y: 0 }}
+							transition={{ delay: 0.2, duration: 0.3 }}
+							className='text-5xl'
+						>
+							Hi!
+						</m.h1>
+					</div>
+					<div className='overflow-hidden  mb-4'>
+						<m.h1
+							initial={{ y: '100%' }}
+							animate={{ y: 0 }}
+							transition={{ delay: 0.4, duration: 0.5 }}
+							className='text-5xl'
+						>
+							I'm Shashwat Jaiswal
+						</m.h1>
+					</div>
 					<div>
-						I’m a front-end developer specializing in building (and occasionally
-						designing) exceptional digital experiences. Currently, I’m focused
-						on building responsive full-stack web applications with serverless.
+						<div>
+							I’m a front-end developer specializing in building (and
+							occasionally designing) exceptional digital experiences.
+							Currently, I’m focused on building responsive full-stack web
+							applications with serverless.
+						</div>
 					</div>
 				</div>
 			</div>
