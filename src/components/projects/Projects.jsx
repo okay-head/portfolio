@@ -3,7 +3,7 @@ import Wrapper from '../Wrapper'
 
 export default function Projects() {
 	return (
-		<div id='projects' className='projects bg-[var(--bg-purple2)]  py-[var(--p-section-y)] scroll-mt-8'>
+		<div id='projects' className='projects bg-[var(--bg-purple2)]  py-[var(--p-section-y)] scroll-mt-[5.3rem]'>
 			<Wrapper>
       <h1 className='text-5xl text-center mb-20'>Projects</h1>    
 				<div className="md:grid grid-cols-2 auto-rows-fr">
