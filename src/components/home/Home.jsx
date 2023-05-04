@@ -22,10 +22,7 @@ export default function Home() {
 			>
 				<div className='order-last'>
 					<m.img
-						// initial={{ opacity: 0, y:'50%' }}
-						// animate={{ opacity: '100%', y:'-20%', y:'0' }}
-						// transition={{ delay: 0.2, duration: 1 }}
-						variants={floatVariants}
+						// variants={floatVariants}
 						animate='float'
 						className='mx-auto -mt-4 w-[80%]'
 						src='/assets/cute-astronaut-working-with-computer-cartoon-vector-icon-illustration-science-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-4172-removebg-preview_cleanup.png'
