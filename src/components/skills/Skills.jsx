@@ -2,10 +2,6 @@ import { motion as m } from 'framer-motion'
 import Wrapper from '../Wrapper'
 import SkillCard from './SkillCard'
 export default function Skills() {
-	const pth = '/assets/brand/'
-
-	const abc = [{ title: 'HTML', path: '/assets/brand/icons8-html-5-480.png' }]
-
 	const imgArr = [
 		{ title: 'HTML', path: '/assets/brand/icons8-html-5-480.png' },
 		{ title: 'CSS', path: '/assets/brand/icons8-css3-480.png' },
@@ -35,7 +31,7 @@ export default function Skills() {
 		view: {
 			opacity: 1,
 			x: 0,
-			transition: { staggerChildren: 0.1, ease: 'easeInOut', duration: 0.8 },
+			transition: { staggerChildren: 0.06, ease: 'easeInOut', duration: 0.6 },
 		},
 	}
 
@@ -46,17 +42,17 @@ export default function Skills() {
 			className='skills bg-[var(--bg-primary)] py-[var(--p-section-y)] z-10 relative scroll-mt-16'
 		>
 			<Wrapper>
-				<div className='mb-10'>
+				<m.div className='mb-10 overflow-hidden'>
 					<m.h1
-						initial={{ y: '100%', opacity: 0 }}
-						whileInView={{ y: '0%', opacity: 1 }}
-						viewport={{ once: true, amount: 0.8 }}
-						transition={{ delay: 0, duration: 0.4 }}
+						initial={{ y: 30, opacity: 0 }}
+						whileInView={{ y: 0, opacity: 1 }}
+						viewport={{ once: true, amount: 0.2 }}
+						transition={{ duration: 0.3 }}
 						className='text-5xl text-center'
 					>
 						Skills
 					</m.h1>
-				</div>
+				</m.div>
 				<div className='text-center text-xl mb-5 italic'>
 					Technologies I've worked with
 				</div>

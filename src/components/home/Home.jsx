@@ -3,7 +3,7 @@ export default function Home() {
 	const floatVariants = {
 		float: {
 			y: [0, -30],
-			x: [0, 0,],
+			x: [0, 0],
 			transition: {
 				duration: 2,
 				ease: ['easeOut'],
@@ -52,12 +52,17 @@ export default function Home() {
 						</m.h1>
 					</div>
 					<div>
-						<div>
+						<m.div
+							initial={{ y: '50%', opacity: 0 }}
+							animate={{ y: 0, opacity: 1 }}
+							// viewport={{ once: true, amount: 0.2 }}
+							transition={{ delay:0.5,duration: 0.6 }}
+						>
 							I’m a front-end developer specializing in building (and
 							occasionally designing) exceptional digital experiences.
 							Currently, I’m focused on building responsive full-stack web
 							applications with serverless.
-						</div>
+						</m.div>
 					</div>
 				</div>
 			</div>
