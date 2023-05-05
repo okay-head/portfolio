@@ -43,10 +43,8 @@ export default function Skills() {
 			className='skills bg-[var(--bg-primary)] py-[var(--p-section-y)] z-10 relative scroll-mt-16'
 		>
 			<Wrapper>
-				{/* <div className='mb-10 overflow-hidden'> */}
         <H1 classVars='mb-10'>Skills</H1>
-				{/* </div> */}
-				<div className='text-center text-xl mb-5 italic'>
+				<div className='text-center text-xl mb-5 italic text-[var(--white-2)]'>
 					Technologies I've worked with
 				</div>
 

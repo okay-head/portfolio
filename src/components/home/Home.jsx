@@ -57,6 +57,7 @@ export default function Home() {
 							animate={{ y: 0, opacity: 1 }}
 							// viewport={{ once: true, amount: 0.2 }}
 							transition={{ delay:0.5,duration: 0.6 }}
+							className='text-[var(--white-2)]'
 						>
 							I’m a front-end developer specializing in building (and
 							occasionally designing) exceptional digital experiences.
