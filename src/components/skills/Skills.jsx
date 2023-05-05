@@ -1,6 +1,7 @@
 import { motion as m } from 'framer-motion'
 import Wrapper from '../Wrapper'
 import SkillCard from './SkillCard'
+import H1 from '../../H1'
 export default function Skills() {
 	const imgArr = [
 		{ title: 'HTML', path: '/assets/brand/icons8-html-5-480.png' },
@@ -31,7 +32,7 @@ export default function Skills() {
 		view: {
 			opacity: 1,
 			x: 0,
-			transition: { staggerChildren: 0.06, ease: 'easeInOut', duration: 0.6 },
+			transition: { staggerChildren: 0.06, ease: 'easeInOut', duration: 0.5 },
 		},
 	}
 
@@ -42,17 +43,9 @@ export default function Skills() {
 			className='skills bg-[var(--bg-primary)] py-[var(--p-section-y)] z-10 relative scroll-mt-16'
 		>
 			<Wrapper>
-				<m.div className='mb-10 overflow-hidden'>
-					<m.h1
-						initial={{ y: 30, opacity: 0 }}
-						whileInView={{ y: 0, opacity: 1 }}
-						viewport={{ once: true, amount: 0.2 }}
-						transition={{ duration: 0.3 }}
-						className='text-5xl text-center'
-					>
-						Skills
-					</m.h1>
-				</m.div>
+				{/* <div className='mb-10 overflow-hidden'> */}
+        <H1 classVars='mb-10'>Skills</H1>
+				{/* </div> */}
 				<div className='text-center text-xl mb-5 italic'>
 					Technologies I've worked with
 				</div>

@@ -1,9 +1,14 @@
+import { motion as m } from 'framer-motion'
+import H1 from '../../H1'
 import Wrapper from '../Wrapper'
 export default function Contact() {
 	return (
-		<div id='contact' className='contact bg-[var(--bg-purple)]  py-[var(--p-section-y)] scroll-mt-[4.5rem]'>
+		<div
+			id='contact'
+			className='contact bg-[var(--bg-purple)]  py-[var(--p-section-y)] scroll-mt-[4.5rem]'
+		>
 			<Wrapper>
-				<h1 className='text-5xl text-center mb-10 md:mb-15'>Contact</h1>
+				<H1 classVars='mb-10 md:mb-15'>Contact</H1>
 				<div
 					className='mx-8
 			md:grid grid-cols-2 items-center lg:mx-auto'
@@ -36,7 +41,17 @@ export default function Contact() {
 								placeholder='Your irrelevant message'
 								className='input-style min-h-[250px]'
 							></textarea>
-              <button id='submit' className=' submit bg-slate-500 rounded-md py-1 px-6 mt-2 mx-auto block transition-transform duration-300 hover:-translate-y-[2px]'>Send</button>
+							<m.button
+								whileHover={{
+									// scale: 1.01,
+									transition: { duration: 0.2 },
+								}}
+								whileTap={{ scale: 0.9 }}
+								id='submit'
+								className=' submit bg-slate-500 rounded-md py-1 px-6 mt-2 mx-auto block'
+							>
+								Send
+							</m.button>
 						</form>
 					</div>
 				</div>

@@ -1,0 +1,16 @@
+import { motion as m } from 'framer-motion'
+export default function H1({ children, classVars = '', hVars = '' }) {
+	return (
+		<div className={`overflow-hidden ${classVars}`}>
+			<m.h1
+				initial={{ y: 30, opacity: 0 }}
+				whileInView={{ y: 0, opacity: 1 }}
+				viewport={{ once: true, amount: 0.2 }}
+				transition={{ duration: 0.3 }}
+				className={`text-5xl text-center ${hVars}`}
+			>
+				{children}
+			</m.h1>
+		</div>
+	)
+}
