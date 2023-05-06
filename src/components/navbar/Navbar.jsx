@@ -20,7 +20,7 @@ export default function Navbar() {
 		}
 	})
 
-	const cls = 'block hover:text-[var(--bg-purple3)] transition-color duration-150'
+	const cls = 'block hover:text-[var(--bg-purple3)] transition-color duration-[250ms]'
 
 	return (
 		<header className='bg-[var(--bg-primary)] text-base font-poppins tracking-wide z-30 sticky top-0'>
