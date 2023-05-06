@@ -45,7 +45,7 @@ html {
 	position: absolute;
 	inset: 0;
 	background-color: var(--bg-primary);
-	transition: 300ms ease transform;
+	transition: 350ms ease transform;
 	transform: scaleX(0);
 	transform-origin: right;
 	z-index: -1;
