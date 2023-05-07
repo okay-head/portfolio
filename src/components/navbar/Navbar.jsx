@@ -3,10 +3,13 @@ import Anchor from './Anchor'
 import Wrapper from '../Wrapper'
 import close from './icons8-close-30.png'
 import hamburger from './icons8-menu-64(1).png'
-import { useState } from 'react'
-
+import { useContext } from 'react'
+import NavContext from './NavContextProvider'
 export default function Navbar() {
-	const [disabled, setDisabled] = useState(false)
+	// const [disabled, setDisabled] = useState(false)
+	//  exported to context
+
+	const {disabled, setDisabled} = useContext(NavContext)
 
 	/* Change this */
 	window.addEventListener('scroll', () => {
@@ -67,7 +70,7 @@ export default function Navbar() {
 							<Anchor flag={true} classVars={cls} imgVars={'hidden'} linkTo='projects'>
 								PROJECTS
 							</Anchor>
-							<Anchor flag={true} classVars={cls} imgVars={'hidden'} linkTo='connect'>
+							<Anchor flag={true} classVars={cls} imgVars={'hidden'} linkTo='contact'>
 								CONNECT
 							</Anchor>
 						</div>
