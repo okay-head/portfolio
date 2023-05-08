@@ -6,8 +6,6 @@ import hamburger from './icons8-menu-64(1).png'
 import { useContext } from 'react'
 import NavContext from './NavContextProvider'
 export default function Navbar() {
-	// const [disabled, setDisabled] = useState(false)
-	//  exported to context
 
 	const {disabled, setDisabled} = useContext(NavContext)
 
