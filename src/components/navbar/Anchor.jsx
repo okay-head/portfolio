@@ -5,13 +5,6 @@ export default function Anchor({ children, linkTo, classVars, imgVars, flag=fals
 
   const {disabled, setDisabled} = useContext(NavContext)
 
-  /* function closeMenu() {
-    if (!flag) return   
-
-    // close menu
-    // this is where we need context API or statemgmt
-  } */
-
 	return (
     
 		<a onClick={() => setDisabled((prev) => !prev)} href={'#' + linkTo} className={`mx-4 relative group ${classVars}`}>
