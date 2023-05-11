@@ -6,8 +6,7 @@ import hamburger from './icons8-menu-64(1).png'
 import { useContext } from 'react'
 import NavContext from './NavContextProvider'
 export default function Navbar() {
-
-	const {disabled, setDisabled} = useContext(NavContext)
+	const { disabled, setDisabled } = useContext(NavContext)
 
 	/* Change this */
 	window.addEventListener('scroll', () => {
@@ -21,10 +20,14 @@ export default function Navbar() {
 		}
 	})
 
-	const cls = 'block hover:text-[var(--bg-purple3)] transition-color duration-[250ms]'
+	const cls =
+		'block hover:text-[var(--bg-purple3)] transition-color duration-[250ms]'
 
 	return (
-		<header className='bg-[var(--bg-primary)] text-base font-poppins tracking-wide z-30 sticky top-0' style={{transition:'background ease-in 0.5s'}}>
+		<header
+			className='bg-[var(--bg-primary)] text-base font-poppins tracking-wide z-30 sticky top-0'
+			style={{ transition: 'background ease-in 0.5s' }}
+		>
 			<Wrapper classVars={'flex py-5 items-center'}>
 				<Link className='font-bold text-lg py-2'>PORTFOLIO</Link>
 
@@ -53,22 +56,48 @@ export default function Navbar() {
 						<img
 							src={close}
 							alt='close icon'
-							className={`w-3/4 me-[2px] z-10 ${!disabled ? 'hidden' : 'block'}`}
+							className={`w-3/4 me-[2px] z-10 ${
+								!disabled ? 'hidden' : 'block'
+							}`}
 						/>
 					</button>
 
-					<section className={`bg-[var(--bg-primary)] fixed inset-0 h-screen grid place-items-center ${!disabled ? 'hidden' : 'block'}`}>
+					<section
+						className={`bg-[var(--bg-primary)] fixed inset-0 h-screen grid place-items-center ${
+							!disabled ? 'hidden' : 'block'
+						}`}
+					>
 						<div className='flex flex-col gap-10 text-center text-2xl'>
-							<Anchor flag={true} classVars={cls} imgVars={'hidden'} linkTo='home'>
+							<Anchor
+								flag={true}
+								classVars={cls}
+								imgVars={'hidden'}
+								linkTo='home'
+							>
 								HOME
 							</Anchor>
-							<Anchor flag={true} classVars={cls} imgVars={'hidden'} linkTo='skills'>
+							<Anchor
+								flag={true}
+								classVars={cls}
+								imgVars={'hidden'}
+								linkTo='skills'
+							>
 								SKILLS
 							</Anchor>
-							<Anchor flag={true} classVars={cls} imgVars={'hidden'} linkTo='projects'>
+							<Anchor
+								flag={true}
+								classVars={cls}
+								imgVars={'hidden'}
+								linkTo='projects'
+							>
 								PROJECTS
 							</Anchor>
-							<Anchor flag={true} classVars={cls} imgVars={'hidden'} linkTo='contact'>
+							<Anchor
+								flag={true}
+								classVars={cls}
+								imgVars={'hidden'}
+								linkTo='contact'
+							>
 								CONNECT
 							</Anchor>
 						</div>
