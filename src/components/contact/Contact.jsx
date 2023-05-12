@@ -14,7 +14,8 @@ export default function Contact() {
 			md:grid grid-cols-2 items-center lg:mx-auto'
 				>
 					<div>
-						<img loading='lazy'
+						<img
+							loading='lazy'
 							src='/assets/th-2066431090-removebg-preview.png'
 							alt='Waving astronaut'
 							className='hue-rotate-30 mx-auto w-3/4 md:-mt-14'
