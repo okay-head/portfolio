@@ -40,8 +40,8 @@ html {
 /* connect btn animation */
 /* for gradient background */
 
-.connect-btn::before{
-	content: "";
+.connect-btn::before {
+	content: '';
 	position: absolute;
 	inset: 0;
 	background-color: var(--bg-primary);
@@ -50,9 +50,9 @@ html {
 	transform-origin: right;
 	z-index: -1;
 }
-.connect-btn:hover.connect-btn::before{
+.connect-btn:hover.connect-btn::before {
 	transform-origin: left;
-	transform: scaleX(1)!important;
+	transform: scaleX(1) !important;
 }
 
 .home::before {
@@ -96,8 +96,9 @@ html {
 .social {
 	transform: scale(0.85);
 }
-.social-svg-icon,.social-svg-mask{
-	transition-duration: 200ms!important;
+.social-svg-icon,
+.social-svg-mask {
+	transition-duration: 200ms !important;
 }
 .social:hover .social-svg-icon {
 	fill: var(--bg-purple) !important;
@@ -106,11 +107,11 @@ html {
 	fill: #f8fafc !important;
 }
 
-.blur-nav{
-    background-color: #23232574!important;
-    backdrop-filter: blur(5px)!important;
+.blur-nav {
+	background-color: #23232574 !important;
+	backdrop-filter: blur(5px) !important;
 }
 
-.hue{
+.hue {
 	filter: hue-rotate(8deg);
 }
