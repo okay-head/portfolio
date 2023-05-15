@@ -8,6 +8,7 @@ export default function H1 ({ children, classVars = '', hVars = '' }) {
         viewport={{ once: true, amount: 0.2 }}
         transition={{ delay: 0.3, duration: 0.3 }}
         className={`text-5xl text-center ${hVars}`}
+        // comment
       >
         {children}
       </m.h1>
