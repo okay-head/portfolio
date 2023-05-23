@@ -23,7 +23,7 @@ export default function Card({
 		<div className={`project-card group shadow-lg p-8 my-12 md:m-4 relative ${cls}`}>
 			<m.img 
 			whileInView={removeBlur}
-			viewport={{ once: true, amount: 0.8 }}
+			viewport={{ once: true, amount: 0.4 }}
 			loading='lazy' src={source} alt={alt} 
 			id={`card-img${id}`}
 			className='mb-12 blur-sm card-imgs' />
