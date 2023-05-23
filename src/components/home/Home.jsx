@@ -20,7 +20,10 @@ export default function Home() {
 			py-5 mx-8
 			md:grid grid-cols-2 items-center lg:mx-auto'
 			>
-				<div className='order-last'>
+				<div className='order-last relative'>
+					{/* <m.img 
+
+					src="/assets/star-svgrepo-com.png" alt="small star" className='w-5 absolute left-10' /> */}
 					<m.img
 						// variants={floatVariants}
 						animate='float'
