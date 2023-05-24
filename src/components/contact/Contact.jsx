@@ -12,7 +12,7 @@ export default function Contact() {
   }
 	const ref = useRef(null);
   const { scrollYProgress } = useScroll({ target: ref })
-  const y = useParallax(scrollYProgress, 60)
+  const y = useParallax(scrollYProgress, 40)
 
 	return (
 		<div
