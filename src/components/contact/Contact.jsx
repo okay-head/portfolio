@@ -39,7 +39,7 @@ export default function Contact() {
 
 							<textarea
 								name='textarea'
-								placeholder='Your irrelevant message'
+								placeholder='Your tiny message...'
 								className='input-style min-h-[250px]'
 							></textarea>
 							<m.button
