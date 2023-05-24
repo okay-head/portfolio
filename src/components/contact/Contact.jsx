@@ -1,7 +1,19 @@
-import { motion as m } from 'framer-motion'
+import { motion as m , useScroll,
+  useTransform} from 'framer-motion'
+import {useRef} from 'react'
 import H1 from '../../H1'
 import Wrapper from '../Wrapper'
+
 export default function Contact() {
+
+	
+  function useParallax (value, distance) {
+    return useTransform(value, [0, 1], [distance,-distance])
+  }
+	const ref = useRef(null);
+  const { scrollYProgress } = useScroll({ target: ref })
+  const y = useParallax(scrollYProgress, 60)
+
 	return (
 		<div
 			id='contact'
@@ -9,12 +21,14 @@ export default function Contact() {
 		>
 			<Wrapper>
 				<H1 classVars='mb-10 md:mb-15'>Contact</H1>
-				<div
+				<div  ref={ref}
 					className='mx-8
 			md:grid grid-cols-2 items-center lg:mx-auto'
 				>
 					<div>
-						<img
+						<m.img
+						style={{y}}
+
 							loading='lazy'
 							src='/assets/th-2066431090-removebg-preview.png'
 							alt='Waving astronaut'
