@@ -7,6 +7,10 @@
 		@apply my-2 mx-2 w-[98%] py-2 px-4 rounded-md text-sm md:text-base border-2 border-black outline-none text-black bg-violet-300;
 	}
 }
+@font-face {
+  font-family: Poppins;
+  src: url('./fonts/Poppins-Light.ttf');
+}
 
 :root {
 	--bg-primary: #1a1a1a;
