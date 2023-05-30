@@ -78,8 +78,7 @@ export default function Home () {
               transition={{ delay: 0.5, duration: 0.6 }}
               className='text-[var(--white-2)]'
             >
-              I’m a front-end developer specializing in building (and
-              occasionally designing) exceptional digital experiences.
+              I’m a front-end developer specializing in building exceptional digital experiences.
               Currently, I’m focused on building responsive full-stack web
               applications with serverless.
             </m.div>
