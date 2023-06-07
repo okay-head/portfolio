@@ -1,8 +1,4 @@
-import {
-  motion as m,
-  useScroll,
-  useTransform,
-} from 'framer-motion'
+import { motion as m, useScroll, useTransform } from 'framer-motion'
 export default function Home () {
   const floatVariants = {
     float: {
@@ -19,7 +15,7 @@ export default function Home () {
   }
 
   function useParallax (value, distance) {
-    return useTransform(value, [0, 1], [0, 3*distance])
+    return useTransform(value, [0, 1], [0, 3 * distance])
   }
 
   const { scrollYProgress } = useScroll()
@@ -42,7 +38,7 @@ export default function Home () {
             // variants={floatVariants}
             // initial = {{ y: '-20%'}}
             // animate = {{ y: '0%'}}
-						transition={{ delay: 0.2, duration: 1 }}
+            transition={{ delay: 0.2, duration: 1 }}
             className='mx-auto -mt-4 w-[80%]'
             src='/assets/cute-astronaut-working-with-computer-cartoon-vector-icon-illustration-science-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-4172-removebg-preview_cleanup.png'
             alt='Astronaut using a laptop'
@@ -78,9 +74,9 @@ export default function Home () {
               transition={{ delay: 0.5, duration: 0.6 }}
               className='text-[var(--white-2)]'
             >
-              I’m a front-end developer specializing in building exceptional digital experiences.
-              Currently, I’m focused on building responsive full-stack web
-              applications with serverless.
+              I’m a front-end developer specializing in building exceptional
+              digital experiences. Currently, I’m focused on building responsive
+              full-stack web applications with serverless.
             </m.div>
           </div>
         </div>
