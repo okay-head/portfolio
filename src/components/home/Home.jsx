@@ -40,8 +40,8 @@ export default function Home () {
             style={{ y }}
             // style={{ y: scrollYProgress }}
             // variants={floatVariants}
-            initial = {{ y: '-20%'}}
-            animate = {{ y: '0%'}}
+            // initial = {{ y: '-20%'}}
+            // animate = {{ y: '0%'}}
 						transition={{ delay: 0.2, duration: 1 }}
             className='mx-auto -mt-4 w-[80%]'
             src='/assets/cute-astronaut-working-with-computer-cartoon-vector-icon-illustration-science-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-4172-removebg-preview_cleanup.png'
