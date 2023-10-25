@@ -21,8 +21,8 @@ export default function Skills () {
     },
     { title: 'Node', path: '/assets/brand/nodejs.png' },
     {
-      title: 'MongoDb',
-      path: '/assets/brand/erkxwhl1gd48xfhe2yld-removebg-preview.png'
+      title: 'TypeScript',
+      path: '/assets/brand/icons8-typescript-480.png'
     },
     { title: 'Scss', path: '/assets/icons8-sass-avatar-480.png' }
   ]
