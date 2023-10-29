@@ -37,7 +37,7 @@ export default function Navbar () {
           <Anchor linkTo='projects'>PROJECTS</Anchor>
           <a
             href='#contact'
-            className='connect-btn relative  nav-link ms-4 me-0 border border-slate-300 p-2 rounded-sm'
+            className='connect-btn relative  nav-link ms-4 me-0 p-2 rounded-sm'
           >
             LET'S CONNECT
           </a>
