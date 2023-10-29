@@ -9,16 +9,20 @@ export default function Projects () {
       className=' projects bg-[var(--bg-purple2)]  py-[var(--p-section-y)] scroll-mt-[5.3rem]'
     >
       <Wrapper>
-        <H1 classVars='mb-[calc(5rem-0.5rem)]' hVars='mb-2'>
+        <H1 classVars='mb-9' hVars='mb-2'>
           Projects
         </H1>
+        <div className='text-center text-lg mb-6 italic text-[var(--white-2)] max-w-4xl  mx-auto'>
+        Nothing beats the excitement of starting a new project. Esp when you've got 20 of them sitting unfinished. <br />
+        These are some of the projects that miraculously made it to completion. 
+        </div>
         <div className='md:grid grid-cols-2 auto-rows-fr'>
           <Card
-            source={'././assets/github-finder-II.png'}
-            alt={'Github finder'}
-            caption={'Github finder'}
-            live_url={'https://okay-head-github-finder.netlify.app/'}
-            code_url={'https://github.com/okay-head/Github-Finder'}
+            source={'././assets/Blog-site-snapshot-1.png'}
+            alt={'Blog site'}
+            caption={'On The Blog'}
+            live_url={'https://blog-site-ecru-phi.vercel.app/'}
+            code_url={'https://github.com/okay-head/Blog-site'}
             id={1}
           />
 

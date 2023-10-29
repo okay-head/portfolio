@@ -17,7 +17,11 @@ export default function Contact () {
       className='contact bg-[var(--bg-purple)]  py-[var(--p-section-y)] scroll-mt-[4.5rem]'
     >
       <Wrapper>
-        <H1 classVars='mb-10 md:mb-15'>Contact</H1>
+        <H1 classVars='mb-8'>Contact</H1>
+        <div className='text-center text-lg mb-10 italic text-[var(--white-2)] max-w-4xl  mx-auto'>
+        If you like my work, consider adding a 🌟 on github. <br /> 
+        You can also contact me via mail or twitter. 
+        </div>
         <div
           ref={ref}
           className='mx-8
