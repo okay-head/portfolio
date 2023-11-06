@@ -29,7 +29,7 @@ export default function Projects () {
           <Card
             source={'././assets/ableton-snapshot-home-IIII.png'}
             alt={'Ableton'}
-            caption={'Ableton (responsive)'}
+            caption={'Ableton'}
             cls={'row-span-2'}
             live_url={'https://okay-head.github.io/Ableton/'}
             code_url={'https://github.com/okay-head/Ableton'}
