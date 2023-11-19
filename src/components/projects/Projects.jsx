@@ -18,7 +18,7 @@ export default function Projects () {
         </div>
         <div className='md:grid grid-cols-2 auto-rows-fr'>
           <Card
-            source={'././assets/Blog-site-snapshot-1.png'}
+            source={'././assets/Blog-site-snapshot-1.webp'}
             alt={'Blog site'}
             caption={'On The Blog'}
             live_url={'https://blog-site-ecru-phi.vercel.app/'}
@@ -27,7 +27,7 @@ export default function Projects () {
           />
 
           <Card
-            source={'././assets/ableton-snapshot-home-IIII.png'}
+            source={'././assets/ableton-snapshot-home-IIII.webp'}
             alt={'Ableton'}
             caption={'Ableton'}
             cls={'row-span-2'}
@@ -37,7 +37,7 @@ export default function Projects () {
           />
 
           <Card
-            source={'././assets/gradient-generator-snapshot-II.png'}
+            source={'././assets/gradient-generator-snapshot-II.webp'}
             alt={'Gradient generator'}
             caption={'Gradient generator'}
             code_url={'https://github.com/okay-head/Gradient-generator'}
