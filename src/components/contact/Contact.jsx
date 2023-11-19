@@ -31,7 +31,7 @@ export default function Contact () {
             <m.img
               style={{ y }}
               loading='lazy'
-              src='/assets/th-2066431090-removebg-preview.png'
+              src='/assets/th-2066431090-removebg-preview.webp'
               alt='Waving astronaut'
               className='hue-rotate-30 mx-auto w-3/4 md:-mt-14'
             />

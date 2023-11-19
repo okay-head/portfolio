@@ -4,27 +4,27 @@ import SkillCard from './SkillCard'
 import H1 from '../../H1'
 export default function Skills () {
   const imgArr = [
-    { title: 'HTML', path: '/assets/brand/icons8-html-5-480.png' },
-    { title: 'CSS', path: '/assets/brand/icons8-css3-480.png' },
-    { title: 'JS', path: '/assets/brand/icons8-javascript-480.png' },
+    { title: 'HTML', path: '/assets/brand/icons8-html-5-480.webp' },
+    { title: 'CSS', path: '/assets/brand/icons8-css3-480.webp' },
+    { title: 'JS', path: '/assets/brand/icons8-javascript-480.webp' },
     {
       title: 'React',
-      path: '/assets/brand/react-1-logo-png-transparent-removebg-preview.png'
+      path: '/assets/brand/react-1-logo-png-transparent-removebg-preview.webp'
     },
-    { title: 'Tailwind', path: '/assets/brand/icons8-tailwind-css-480.png' },
-    { title: 'Bootstrap', path: '/assets/brand/icons8-bootstrap-480.png' },
-    { title: 'Firebase', path: '/assets/brand/icons8-firebase-480.png' },
-    { title: 'jQuery', path: '/assets/brand/jquery-icon.png' },
+    { title: 'Tailwind', path: '/assets/brand/icons8-tailwind-css-480.webp' },
+    { title: 'Bootstrap', path: '/assets/brand/icons8-bootstrap-480.webp' },
+    { title: 'Firebase', path: '/assets/brand/icons8-firebase-480.webp' },
+    { title: 'jQuery', path: '/assets/brand/jquery-icon.webp' },
     {
       title: 'AWS',
-      path: '/assets/brand/icons8-amazon-web-services-480(1).png'
+      path: '/assets/brand/icons8-amazon-web-services-480(1).webp'
     },
-    { title: 'Node', path: '/assets/brand/nodejs.png' },
+    { title: 'Node', path: '/assets/brand/nodejs.webp' },
     {
       title: 'TypeScript',
-      path: '/assets/brand/icons8-typescript-480.png'
+      path: '/assets/brand/icons8-typescript-480.webp'
     },
-    { title: 'Scss', path: '/assets/icons8-sass-avatar-480.png' }
+    { title: 'Scss', path: '/assets/icons8-sass-avatar-480.webp' }
   ]
 
   const cardVariants = {

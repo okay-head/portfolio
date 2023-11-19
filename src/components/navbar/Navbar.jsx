@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 import Anchor from './Anchor'
 import Wrapper from '../Wrapper'
-import close from './icons8-close-30.png'
-import hamburger from './icons8-menu-64(1).png'
+import close from './icons8-close-30.webp'
+import hamburger from './icons8-menu-64(1).webp'
 import { useContext } from 'react'
 import NavContext from './NavContextProvider'
 export default function Navbar () {

@@ -32,7 +32,7 @@ export default function Home () {
         <div className='order-last relative'>
           {/* <m.img 
 
-					src="/assets/star-svgrepo-com.png" alt="small star" className='w-5 absolute left-10' /> */}
+					src="/assets/star-svgrepo-com.webp" alt="small star" className='w-5 absolute left-10' /> */}
           <m.img
             style={{ y }}
             // style={{ y: scrollYProgress }}
@@ -41,7 +41,7 @@ export default function Home () {
             // animate = {{ y: '0%'}}
             transition={{ delay: 0.2, duration: 1 }}
             className='mx-auto -mt-4 w-[80%]'
-            src='/assets/cute-astronaut-working-with-computer-cartoon-vector-icon-illustration-science-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-4172-removebg-preview_cleanup.png'
+            src='/assets/cute-astronaut-working-with-computer-cartoon-vector-icon-illustration-science-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-4172-removebg-preview_cleanup.webp'
             alt='Astronaut using a laptop'
           />
         </div>

@@ -1,6 +1,6 @@
 import { motion as m } from 'framer-motion'
 export default function SkillCard ({
-  path = '/assets/brand/icons8-css3-480.png',
+  path = '/assets/brand/icons8-css3-480.webp',
   variants,
   title,
   classVars = ''
