@@ -23,6 +23,7 @@ export default function Home () {
 
   return (
     <div id='home' className='home min-h-screen relative scroll-m-20'>
+      <img loading='eager' src="/assets/64c71112-c87c-4874-b26d-30ca6454dd11.webp" alt="Hero image" id='heroImg'/>
       <div
         className='home-container max-w-[1000px] min-h-[80vh] 
 			py-5 mx-8
