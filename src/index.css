@@ -8,8 +8,8 @@
 	}
 }
 @font-face {
-  font-family: Poppins;
-  src: url('./fonts/Poppins-Light.ttf');
+	font-family: Poppins;
+	src: url('./fonts/Poppins-Light.ttf');
 	font-display: swap;
 }
 
@@ -61,14 +61,14 @@ html {
 }
 
 .home::before {
-	background: url('/assets/7756629.jpg') black center center no-repeat;
+	background: url('/assets/64c71112-c87c-4874-b26d-30ca6454dd11.webp') black
+		center center no-repeat;
 	background-size: cover;
 	content: '';
 	position: absolute;
 	inset: 0;
 	display: block;
 	z-index: -1;
-	filter: brightness(85%);
 }
 
 .cardAnchor:hover {
