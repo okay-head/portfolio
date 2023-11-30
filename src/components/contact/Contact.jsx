@@ -2,6 +2,7 @@ import { motion as m, useScroll, useTransform } from 'framer-motion'
 import { useRef } from 'react'
 import H1 from '../../H1'
 import Wrapper from '../Wrapper'
+import Popup from '../Popup'
 
 export default function Contact () {
   function useParallax (value, distance) {
@@ -11,11 +12,21 @@ export default function Contact () {
   const { scrollYProgress } = useScroll({ target: ref })
   const y = useParallax(scrollYProgress, 40)
 
+  const onSubmitHandler = (e)=>{
+    e.preventDefault()
+    document.getElementsByTagName('form')[0].reset()
+    document.getElementById('form-popup').classList.add('!opacity-100','!translate-y-0')
+    setTimeout(() => {
+      document.getElementById('form-popup').classList.remove('!opacity-100','!translate-y-0')
+    }, 1000);
+    console.log('form submitted!')
+  }
   return (
     <div
       id='contact'
-      className='contact bg-[var(--bg-purple)]  py-[var(--p-section-y)] scroll-mt-[4.5rem]'
+      className='contact bg-[var(--bg-purple)]  py-[var(--p-section-y)] scroll-mt-[4.5rem] relative'
     >
+      <Popup />
       <Wrapper>
         <H1 classVars='mb-8'>Contact</H1>
         <div className='text-center text-lg mb-10 italic text-[var(--white-2)] max-w-4xl  mx-auto'>
@@ -38,7 +49,7 @@ export default function Contact () {
           </div>
 
           <div className='py-4'>
-            <form action=''>
+            <form onSubmit={(e)=>onSubmitHandler(e)}>
               <input
                 type='text'
                 name='text'
