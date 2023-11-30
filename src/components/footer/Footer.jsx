@@ -1,7 +1,7 @@
 import Wrapper from '../Wrapper'
 import Social from './Social'
 
-export default function Footer () {
+export default function Footer() {
   return (
     <footer className=' bg-black text-center sm:text-left text-lg font-poppins tracking-wide'>
       <Wrapper classVars={'sm:grid grid-cols-2 py-10 items-center'}>

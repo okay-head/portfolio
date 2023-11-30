@@ -5,7 +5,7 @@ import close from './icons8-close-30.webp'
 import hamburger from './icons8-menu-64(1).webp'
 import { useContext } from 'react'
 import NavContext from './NavContextProvider'
-export default function Navbar () {
+export default function Navbar() {
   const { disabled, setDisabled } = useContext(NavContext)
 
   /* Change this */
@@ -45,7 +45,7 @@ export default function Navbar () {
 
         <nav className='ms-auto md:hidden'>
           <button
-            onClick={() => setDisabled(prev => !prev)}
+            onClick={() => setDisabled((prev) => !prev)}
             className='flex justify-end'
           >
             <img

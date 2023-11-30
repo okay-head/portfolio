@@ -1,5 +1,5 @@
 import { SocialIcon } from 'react-social-icons'
-export default function Social ({ url, classVars }) {
+export default function Social({ url, classVars }) {
   return (
     <SocialIcon
       url={url}

@@ -2,7 +2,7 @@ import H1 from '../../H1'
 import Card from '../Card'
 import Wrapper from '../Wrapper'
 
-export default function Projects () {
+export default function Projects() {
   return (
     <section
       id='projects'
@@ -13,8 +13,10 @@ export default function Projects () {
           Projects
         </H1>
         <div className='text-center text-lg mb-6 italic text-[var(--white-2)] max-w-4xl  mx-auto'>
-        Nothing beats the excitement of starting a new project. Esp when you've got 20 of them sitting unfinished. <br />
-        These are some of the projects that miraculously made it to completion. 
+          Nothing beats the excitement of starting a new project. Esp when
+          you've got 20 of them sitting unfinished. <br />
+          These are some of the projects that miraculously made it to
+          completion.
         </div>
         <div className='md:grid grid-cols-2 auto-rows-fr'>
           <Card

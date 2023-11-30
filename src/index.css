@@ -3,61 +3,61 @@
 @tailwind utilities;
 
 @layer components {
-	.input-style {
-		@apply my-2 mx-2 w-[98%] py-2 px-4 rounded-md text-sm md:text-base border-2 border-black outline-none text-black bg-violet-300;
-	}
+  .input-style {
+    @apply my-2 mx-2 w-[98%] py-2 px-4 rounded-md text-sm md:text-base border-2 border-black outline-none text-black bg-violet-300;
+  }
 }
 @font-face {
-	font-family: Poppins;
-	src: url('./fonts/Poppins-Light.ttf');
-	font-display: auto;
+  font-family: Poppins;
+  src: url('./fonts/Poppins-Light.ttf');
+  font-display: auto;
 }
 
 :root {
-	--bg-primary: #1a1a1a;
-	--text-heading: text-5xl;
-	--bg-purple: #220a3a;
-	--p-section-y: 10vh;
-	--bg-purple2: #371a46;
-	--bg-purple3: #793b9b;
-	--bg-purple4: #3c0d4c;
-	--white-1: #f8fafc;
-	--white-2: #f8fafcd1;
+  --bg-primary: #1a1a1a;
+  --text-heading: text-5xl;
+  --bg-purple: #220a3a;
+  --p-section-y: 10vh;
+  --bg-purple2: #371a46;
+  --bg-purple3: #793b9b;
+  --bg-purple4: #3c0d4c;
+  --white-1: #f8fafc;
+  --white-2: #f8fafcd1;
 }
 
 html {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 .project-card,
 /* .connect-btn, */
 .connect-btn::before,
 .submit {
-	background: linear-gradient(
-		90.21deg,
-		rgba(170, 54, 124, 0.5) -5.91%,
-		rgba(74, 47, 189, 0.5) 111.58%
-	);
+  background: linear-gradient(
+    90.21deg,
+    rgba(170, 54, 124, 0.5) -5.91%,
+    rgba(74, 47, 189, 0.5) 111.58%
+  );
 }
 
 /* connect btn animation */
 /* for gradient background */
 
 .connect-btn::before {
-	content: '';
-	position: absolute;
-	inset: 0;
-	background-color: var(--bg-primary);
-	transition: 350ms ease transform;
-	transform: scaleX(0);
-	transform-origin: right;
-	z-index: -1;
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: var(--bg-primary);
+  transition: 350ms ease transform;
+  transform: scaleX(0);
+  transform-origin: right;
+  z-index: -1;
 }
 .connect-btn:hover.connect-btn::before {
-	transform-origin: left;
-	transform: scaleX(1) !important;
+  transform-origin: left;
+  transform: scaleX(1) !important;
 }
 
 /* .home::before {
@@ -71,59 +71,59 @@ html {
 	z-index: -1;
 } */
 #heroImg {
-	object-fit: cover;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
 
 .cardAnchor:hover {
-	transition: 0.3s ease-out transform;
-	transform: scale(0.95);
+  transition: 0.3s ease-out transform;
+  transform: scale(0.95);
 }
 
 .text-gradient {
-	background: linear-gradient(
-		90.21deg,
-		rgba(170, 54, 124, 0.5) -5.91%,
-		rgba(74, 47, 189, 0.5) 111.58%
-	);
-	background-clip: text;
-	color: transparent;
+  background: linear-gradient(
+    90.21deg,
+    rgba(170, 54, 124, 0.5) -5.91%,
+    rgba(74, 47, 189, 0.5) 111.58%
+  );
+  background-clip: text;
+  color: transparent;
 }
 
 ::placeholder {
-	color: #232325c4 !important;
+  color: #232325c4 !important;
 }
 
 .submit {
-	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
 }
 .submit:hover {
-	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.604);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.604);
 }
 
 /* oh how i miss scss */
 .social {
-	transform: scale(0.85);
+  transform: scale(0.85);
 }
 .social-svg-icon,
 .social-svg-mask {
-	transition-duration: 200ms !important;
+  transition-duration: 200ms !important;
 }
 .social:hover .social-svg-icon {
-	fill: var(--bg-purple) !important;
+  fill: var(--bg-purple) !important;
 }
 .social:hover .social-svg-mask {
-	fill: #f8fafc !important;
+  fill: #f8fafc !important;
 }
 
 .blur-nav {
-	background-color: #23232574 !important;
-	backdrop-filter: blur(5px) !important;
+  background-color: #23232574 !important;
+  backdrop-filter: blur(5px) !important;
 }
 
 .hue {
-	filter: hue-rotate(8deg);
+  filter: hue-rotate(8deg);
 }

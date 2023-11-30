@@ -4,21 +4,25 @@ import H1 from '../../H1'
 import Wrapper from '../Wrapper'
 import Popup from '../Popup'
 
-export default function Contact () {
-  function useParallax (value, distance) {
+export default function Contact() {
+  function useParallax(value, distance) {
     return useTransform(value, [0, 1], [distance, -distance])
   }
   const ref = useRef(null)
   const { scrollYProgress } = useScroll({ target: ref })
   const y = useParallax(scrollYProgress, 40)
 
-  const onSubmitHandler = (e)=>{
+  const onSubmitHandler = (e) => {
     e.preventDefault()
     document.getElementsByTagName('form')[0].reset()
-    document.getElementById('form-popup').classList.add('!opacity-100','!translate-y-0')
+    document
+      .getElementById('form-popup')
+      .classList.add('!opacity-100', '!translate-y-0')
     setTimeout(() => {
-      document.getElementById('form-popup').classList.remove('!opacity-100','!translate-y-0')
-    }, 1000);
+      document
+        .getElementById('form-popup')
+        .classList.remove('!opacity-100', '!translate-y-0')
+    }, 1000)
     console.log('form submitted!')
   }
   return (
@@ -29,8 +33,8 @@ export default function Contact () {
       <Wrapper>
         <H1 classVars='mb-8'>Contact</H1>
         <div className='text-center text-lg mb-10 italic text-[var(--white-2)] max-w-4xl  mx-auto'>
-        If you like my work, consider adding a 🌟 on github. <br /> 
-        You can also contact me via mail or twitter. 
+          If you like my work, consider adding a 🌟 on github. <br />
+          You can also contact me via mail or twitter.
         </div>
         <div
           ref={ref}
@@ -48,9 +52,9 @@ export default function Contact () {
           </div>
 
           <div className='py-4 relative'>
-      <Popup />
+            <Popup />
 
-            <form onSubmit={(e)=>onSubmitHandler(e)}>
+            <form onSubmit={(e) => onSubmitHandler(e)}>
               <input
                 type='text'
                 name='text'
@@ -72,7 +76,7 @@ export default function Contact () {
               <m.button
                 whileHover={{
                   // scale: 1.01,
-                  transition: { duration: 0.2 }
+                  transition: { duration: 0.2 },
                 }}
                 whileTap={{ scale: 0.9 }}
                 id='submit'

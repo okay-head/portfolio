@@ -1,5 +1,5 @@
 import { motion as m } from 'framer-motion'
-export default function H1 ({ children, classVars = '', hVars = '' }) {
+export default function H1({ children, classVars = '', hVars = '' }) {
   return (
     <div className={`overflow-hidden ${classVars}`}>
       <m.h1

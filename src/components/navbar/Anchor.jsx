@@ -1,18 +1,18 @@
 import { useContext } from 'react'
 import NavContext from './NavContextProvider'
 
-export default function Anchor ({
+export default function Anchor({
   children,
   linkTo,
   classVars,
   imgVars,
-  flag = false
+  flag = false,
 }) {
   const { disabled, setDisabled } = useContext(NavContext)
 
   return (
     <a
-      onClick={() => setDisabled(prev => !prev)}
+      onClick={() => setDisabled((prev) => !prev)}
       href={'#' + linkTo}
       className={`mx-4 relative group ${classVars}`}
     >

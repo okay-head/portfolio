@@ -1,4 +1,4 @@
-export default function CardAnchor ({ url, source, alt }) {
+export default function CardAnchor({ url, source, alt }) {
   return (
     <a href={url} target='_blank' className='cardAnchor mx-3'>
       <img

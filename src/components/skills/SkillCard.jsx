@@ -1,9 +1,9 @@
 import { motion as m } from 'framer-motion'
-export default function SkillCard ({
+export default function SkillCard({
   path = '/assets/brand/icons8-css3-480.webp',
   variants,
   title,
-  classVars = ''
+  classVars = '',
 }) {
   return (
     <m.div

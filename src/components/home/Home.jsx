@@ -1,6 +1,6 @@
 import { motion as m, useScroll, useTransform } from 'framer-motion'
-export default function Home () {
-  function useParallax (value, distance) {
+export default function Home() {
+  function useParallax(value, distance) {
     return useTransform(value, [0, 1], [0, 3 * distance])
   }
 
@@ -9,7 +9,12 @@ export default function Home () {
 
   return (
     <section id='home' className='home min-h-screen relative scroll-m-20'>
-      <img loading='eager' src="/assets/64c71112-c87c-4874-b26d-30ca6454dd11.webp" alt="" id='heroImg'/>
+      <img
+        loading='eager'
+        src='/assets/64c71112-c87c-4874-b26d-30ca6454dd11.webp'
+        alt=''
+        id='heroImg'
+      />
       <div
         className='home-container max-w-[1000px] min-h-[80vh] 
 			py-5 mx-8
@@ -61,8 +66,9 @@ export default function Home () {
               transition={{ delay: 0.5, duration: 0.6 }}
               className='text-[var(--white-2)]'
             >
-              I am a developer who thrives on passion and curiosity. Currently, I’m focused on building responsive
-              full-stack web applications with serverless.
+              I am a developer who thrives on passion and curiosity. Currently,
+              I’m focused on building responsive full-stack web applications
+              with serverless.
             </m.div>
           </div>
         </div>
