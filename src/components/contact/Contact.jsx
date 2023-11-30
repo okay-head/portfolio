@@ -22,11 +22,10 @@ export default function Contact () {
     console.log('form submitted!')
   }
   return (
-    <div
+    <section
       id='contact'
       className='contact bg-[var(--bg-purple)]  py-[var(--p-section-y)] scroll-mt-[4.5rem] relative'
     >
-      <Popup />
       <Wrapper>
         <H1 classVars='mb-8'>Contact</H1>
         <div className='text-center text-lg mb-10 italic text-[var(--white-2)] max-w-4xl  mx-auto'>
@@ -48,7 +47,9 @@ export default function Contact () {
             />
           </div>
 
-          <div className='py-4'>
+          <div className='py-4 relative'>
+      <Popup />
+
             <form onSubmit={(e)=>onSubmitHandler(e)}>
               <input
                 type='text'
@@ -83,6 +84,6 @@ export default function Contact () {
           </div>
         </div>
       </Wrapper>
-    </div>
+    </section>
   )
 }

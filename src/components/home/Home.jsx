@@ -1,19 +1,5 @@
 import { motion as m, useScroll, useTransform } from 'framer-motion'
 export default function Home () {
-  const floatVariants = {
-    float: {
-      y: [0, -30],
-      x: [0, 0],
-      transition: {
-        duration: 2,
-        ease: ['easeOut'],
-
-        repeat: Infinity,
-        repeatType: 'reverse'
-      }
-    }
-  }
-
   function useParallax (value, distance) {
     return useTransform(value, [0, 1], [0, 3 * distance])
   }
@@ -22,7 +8,7 @@ export default function Home () {
   const y = useParallax(scrollYProgress, 100)
 
   return (
-    <div id='home' className='home min-h-screen relative scroll-m-20'>
+    <section id='home' className='home min-h-screen relative scroll-m-20'>
       <img loading='eager' src="/assets/64c71112-c87c-4874-b26d-30ca6454dd11.webp" alt="" id='heroImg'/>
       <div
         className='home-container max-w-[1000px] min-h-[80vh] 
@@ -81,6 +67,6 @@ export default function Home () {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

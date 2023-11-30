@@ -4,7 +4,7 @@ import Wrapper from '../Wrapper'
 
 export default function Projects () {
   return (
-    <div
+    <section
       id='projects'
       className=' projects bg-[var(--bg-purple2)]  py-[var(--p-section-y)] scroll-mt-[5.3rem]'
     >
@@ -46,6 +46,6 @@ export default function Projects () {
           />
         </div>
       </Wrapper>
-    </div>
+    </section>
   )
 }

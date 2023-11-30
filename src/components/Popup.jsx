@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Popup() {
 	return (
-					<article id='form-popup' className='absolute right-8 top-[21.33%] transform overflow-hidden rounded-lg text-left shadow-xl transition-all sm:my-8 sm:w-[20%] sm:max-w-lg translate-y-4 opacity-0'>
-						<div className='bg-white p-3'>
+					<article id='form-popup' className='absolute right-2 translate-y-4 opacity-0 -top-20 transform overflow-hidden rounded-lg text-left shadow-xl transition-all sm:my-8 sm:max-w-lg'>
+						<div className='bg-white py-3 px-4'>
 							<div className='sm:flex mx-auto w-max items-center'>
 								<div className='mx-auto flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-[#1bc95b] p-1'>
 									<svg

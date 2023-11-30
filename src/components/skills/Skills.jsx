@@ -38,7 +38,7 @@ export default function Skills () {
 
   return (
     // view port units for x axis padding?
-    <div
+    <section
       id='skills'
       className='skills bg-[var(--bg-primary)] py-[var(--p-section-y)] z-10 relative scroll-mt-16'
     >
@@ -69,6 +69,6 @@ export default function Skills () {
           })}
         </m.div>
       </Wrapper>
-    </div>
+    </section>
   )
 }
