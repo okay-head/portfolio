@@ -25,11 +25,11 @@ export default function Navbar() {
 
   return (
     <header
-      className='bg-[var(--bg-primary)] text-base font-poppins tracking-wide z-30 sticky top-0'
+      className='bg-[var(--bg-primary)] font-poppins tracking-wide z-30 sticky top-0'
       style={{ transition: 'background ease-in 0.5s' }}
     >
       <Wrapper classVars={'flex py-5 items-center'}>
-        <Link className='font-bold text-lg py-2'>PORTFOLIO</Link>
+        <Link className='font-bold text-base md:text-lg py-2'>PORTFOLIO</Link>
 
         <nav className='hidden md:flex ms-auto items-center'>
           <Anchor linkTo='home'>HOME</Anchor>
@@ -67,7 +67,7 @@ export default function Navbar() {
               !disabled ? 'hidden' : 'block'
             }`}
           >
-            <div className='flex flex-col gap-10 text-center text-2xl'>
+            <div className='flex flex-col gap-10 text-center text-xl  lg:text-2xl'>
               <Anchor
                 flag={true}
                 classVars={cls}

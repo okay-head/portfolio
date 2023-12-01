@@ -31,19 +31,19 @@ export default function Home() {
             // initial = {{ y: '-20%'}}
             // animate = {{ y: '0%'}}
             transition={{ delay: 0.2, duration: 1 }}
-            className='mx-auto -mt-4 w-[80%]'
+            className='mx-auto -mt-4 md:w-[80%] w-[70%]'
             src='/assets/cute-astronaut-working-with-computer-cartoon-vector-icon-illustration-science-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-4172-removebg-preview_cleanup.webp'
             alt='Astronaut using a laptop'
           />
         </div>
 
-        <div className='text-lg mb-16 md:mb-0'>
+        <div className='text-base md:text-lg mb-16 md:mb-0'>
           <div className='overflow-hidden'>
             <m.h1
               initial={{ y: '100%' }}
               animate={{ y: 0 }}
               transition={{ delay: 0.2, duration: 0.3 }}
-              className='text-5xl'
+              className='text-4xl md:text-5xl'
             >
               Hi!
             </m.h1>
@@ -53,7 +53,7 @@ export default function Home() {
               initial={{ y: '100%' }}
               animate={{ y: 0 }}
               transition={{ delay: 0.4, duration: 0.5 }}
-              className='text-5xl'
+              className='text-4xl md:text-5xl'
             >
               I'm Shashwat Jaiswal
             </m.h1>

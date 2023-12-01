@@ -43,8 +43,8 @@ export default function Skills() {
       className='skills bg-[var(--bg-primary)] py-[var(--p-section-y)] z-10 relative scroll-mt-16'
     >
       <Wrapper>
-        <H1 classVars='mb-9'>Skills</H1>
-        <div className='text-center text-lg mb-5 italic text-[var(--white-2)] max-w-4xl  mx-auto'>
+        <H1 classVars='mb-4 lg:mb-9'>Skills</H1>
+        <div className='text-center lg:text-lg mb-5 italic text-[var(--white-2)] max-w-4xl  mx-auto'>
           The sheer number of new tech frameworks are overwhelming, yet worth
           learning. <br />I try. Here are some technologies that I've learned
           and worked with.

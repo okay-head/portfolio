@@ -9,10 +9,10 @@ export default function Projects() {
       className=' projects bg-[var(--bg-purple2)]  py-[var(--p-section-y)] scroll-mt-[5.3rem]'
     >
       <Wrapper>
-        <H1 classVars='mb-9' hVars='mb-2'>
+        <H1 classVars='mb-4 lg:mb-9' hVars='mb-2'>
           Projects
         </H1>
-        <div className='text-center text-lg mb-6 italic text-[var(--white-2)] max-w-4xl  mx-auto'>
+        <div className='text-center lg:text-lg mb-6 italic text-[var(--white-2)] max-w-4xl  mx-auto'>
           Nothing beats the excitement of starting a new project. Esp when
           you've got 20 of them sitting unfinished. <br />
           These are some of the projects that miraculously made it to

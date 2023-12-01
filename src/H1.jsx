@@ -7,7 +7,7 @@ export default function H1({ children, classVars = '', hVars = '' }) {
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true, amount: 0.2 }}
         transition={{ delay: 0.3, duration: 0.3 }}
-        className={`text-5xl text-center ${hVars}`}
+        className={`text-3xl lg:text-5xl text-center ${hVars}`}
       >
         {children}
       </m.h1>
