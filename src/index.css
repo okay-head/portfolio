@@ -1,3 +1,7 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -30,6 +34,14 @@ html {
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
 }
+
+body {
+  /* font-family: 'Work Sans', sans-serif; */
+  font-family: 'Tenor Sans', sans-serif;
+}
+/* footer,header{
+  font-family: 'Inter', sans-serif!important;
+} */
 
 .project-card,
 /* .connect-btn, */

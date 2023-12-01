@@ -29,7 +29,7 @@ export default function Card({
         id={`card-img${id}`}
         className='mb-12 blur-sm card-imgs'
       />
-      <div className='caption z-10 px-8 py-4 bg-[--bg-primary]  absolute bottom-0 left-0 right-0 font-bold'>
+      <div className='caption z-10 px-8 py-4 bg-[--bg-primary]  absolute bottom-0 left-0 right-0 font-bold text-sm md:text-base'>
         <h2>{caption}</h2>
       </div>
       <div className='card-cover bg-[#000000ac] absolute inset-0 bottom-12 flex items-center justify-center transition-opacity ease-in-out duration-300  opacity-0 group-hover:opacity-100'>
