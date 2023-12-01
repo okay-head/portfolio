@@ -38,8 +38,8 @@ export default function Contact() {
         </div>
         <div
           ref={ref}
-          className='mx-8
-			md:grid grid-cols-2 items-center lg:mx-auto'
+          className='md:mx-8
+			md:grid grid-cols-2 items-center lg:mx-auto -mt-4'
         >
           <div>
             <m.img
@@ -47,7 +47,13 @@ export default function Contact() {
               loading='lazy'
               src='/assets/th-2066431090-removebg-preview.webp'
               alt='Waving astronaut'
-              className='hue-rotate-30 mx-auto w-3/4 md:-mt-14'
+              className='hidden md:block hue-rotate-30 mx-auto w-full md:w-3/4 md:-mt-14 max-w-[400px]'
+            />
+            <m.img
+              loading='lazy'
+              src='/assets/th-2066431090-removebg-preview.webp'
+              alt='Waving astronaut'
+              className='md:hidden hue-rotate-30 mx-auto w-full md:w-3/4 md:-mt-14 max-w-[400px]'
             />
           </div>
 
@@ -69,7 +75,7 @@ export default function Contact() {
               />
 
               <textarea
-                name='textarea' lg:text-lg
+                name='textarea'
                 placeholder='Your tiny message...'
                 className='input-style min-h-[250px]'
               ></textarea>

@@ -8,7 +8,10 @@ export default function Home() {
   const y = useParallax(scrollYProgress, 100)
 
   return (
-    <section id='home' className='home min-h-screen relative scroll-m-20'>
+    <section
+      id='home'
+      className='home min-h-screen relative scroll-m-20 grid place-items-center md:block'
+    >
       <img
         loading='eager'
         src='/assets/64c71112-c87c-4874-b26d-30ca6454dd11.webp'
@@ -20,7 +23,7 @@ export default function Home() {
 			py-5 mx-8
 			md:grid grid-cols-2 items-center lg:mx-auto'
       >
-        <div className='order-last relative'>
+        <div className='order-last relative -mt-8 md:mt-[unset]'>
           {/* <m.img 
 
 					src="/assets/star-svgrepo-com.webp" alt="small star" className='w-5 absolute left-10' /> */}
@@ -31,7 +34,7 @@ export default function Home() {
             // initial = {{ y: '-20%'}}
             // animate = {{ y: '0%'}}
             transition={{ delay: 0.2, duration: 1 }}
-            className='mx-auto -mt-4 md:w-[80%] w-[70%]'
+            className='mx-auto -mt-4 md:w-[80%] w-[90%] max-w-[400px]'
             src='/assets/cute-astronaut-working-with-computer-cartoon-vector-icon-illustration-science-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-4172-removebg-preview_cleanup.webp'
             alt='Astronaut using a laptop'
           />

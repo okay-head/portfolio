@@ -67,7 +67,7 @@ export default function Navbar() {
               !disabled ? 'hidden' : 'block'
             }`}
           >
-            <div className='flex flex-col gap-10 text-center text-xl  lg:text-2xl'>
+            <div className='-mt-20 flex flex-col gap-10 text-center text-xl  lg:text-2xl'>
               <Anchor
                 flag={true}
                 classVars={cls}
