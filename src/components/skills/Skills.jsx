@@ -56,7 +56,7 @@ export default function Skills() {
           whileInView='view'
           viewport={{ once: true, amount: 0.3 }}
           className=' mx-auto max-w-4xl
-        sm:grid sm:grid-cols-3 lg:grid-cols-4'
+         grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4'
         >
           {imgArr.map(({ title, path }, i) => {
             return (
