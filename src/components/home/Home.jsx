@@ -35,7 +35,7 @@ export default function Home() {
             // animate = {{ y: '0%'}}
             transition={{ delay: 0.2, duration: 1 }}
             className='mx-auto -mt-4 md:w-[80%] w-[90%] max-w-[400px]'
-            src='/assets/cute-astronaut-working-with-computer-cartoon-vector-icon-illustration-science-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-4172-removebg-preview_cleanup.webp'
+            src='/assets/Untitled_design-removebg-preview.webp'
             alt='Astronaut using a laptop'
           />
         </div>

@@ -12,7 +12,7 @@ export default function Projects() {
         <H1 classVars='mb-4 lg:mb-9' hVars='mb-2'>
           Projects
         </H1>
-        <div className='-mt-2 text-center lg:text-lg mb-6 italic text-[var(--white-2)] max-w-4xl  mx-auto'>
+        <div className='-mt-2 text-center lg:text-lg mb-6 text-[var(--white-2)] max-w-4xl  mx-auto'>
           Nothing beats the excitement of starting a new project. Esp when
           you've got 20 of them sitting unfinished. These are some of the
           projects that miraculously made it to completion.

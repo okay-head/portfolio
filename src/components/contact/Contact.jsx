@@ -32,7 +32,7 @@ export default function Contact() {
     >
       <Wrapper>
         <H1 classVars='mb-4 lg:mb-8'>Contact</H1>
-        <div className='text-center lg:text-lg mb-10 italic text-[var(--white-2)] max-w-4xl  mx-auto'>
+        <div className='text-center lg:text-lg mb-10 text-[var(--white-2)] max-w-4xl  mx-auto'>
           If you like my work, consider adding a 🌟 on github. <br />
           You can also contact me via mail or twitter.
         </div>
