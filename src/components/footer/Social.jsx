@@ -1,7 +1,9 @@
 import { SocialIcon } from 'react-social-icons'
-export default function Social({ url, classVars }) {
+export default function Social({ url, classVars, network }) {
+  console.log(network)
   return (
     <SocialIcon
+      network={network} 
       url={url}
       bgColor='transparent'
       fgColor='#f8fafc'

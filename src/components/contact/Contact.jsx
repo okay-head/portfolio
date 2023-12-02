@@ -31,7 +31,7 @@ export default function Contact() {
       className='contact bg-[var(--bg-purple)]  py-[var(--p-section-y)] scroll-mt-[4.5rem] relative'
     >
       <Wrapper>
-        <H1 classVars='mb-4 lg:mb-8'>Contact</H1>
+        <H1 classVars='mb-4'>Contact</H1>
         <div className='text-center lg:text-lg mb-10 text-[var(--white-2)] max-w-4xl  mx-auto'>
           If you like my work, consider adding a 🌟 on github. <br />
           You can also contact me via mail or twitter.
@@ -66,18 +66,21 @@ export default function Contact() {
                 name='text'
                 className='input-style'
                 placeholder='Your name'
+                required
               />
               <input
                 type='email'
                 name='email'
                 className='input-style'
                 placeholder='Your email'
+                required
               />
 
               <textarea
                 name='textarea'
                 placeholder='Your tiny message...'
                 className='input-style min-h-[250px]'
+                required
               ></textarea>
               <m.button
                 whileHover={{

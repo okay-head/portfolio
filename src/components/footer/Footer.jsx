@@ -11,7 +11,7 @@ export default function Footer() {
           </h2>
         </div>
         <div className='ms-auto'>
-          <Social url='https://medium.com/@shashwat-jaiswal' />
+          <Social url='https://mastodon.social/@mymind_is_a_mush' />
           <Social url='https://github.com/okay-head' />
           <Social url='https://twitter.com/shash0_0' />
         </div>

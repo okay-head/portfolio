@@ -9,7 +9,7 @@ export default function Projects() {
       className=' projects bg-[var(--bg-purple2)]  py-[var(--p-section-y)] scroll-mt-[5.3rem]'
     >
       <Wrapper>
-        <H1 classVars='mb-4 lg:mb-9' hVars='mb-2'>
+        <H1 classVars='mb-4' hVars='mb-2'>
           Projects
         </H1>
         <div className='-mt-2 text-center lg:text-lg mb-6 text-[var(--white-2)] max-w-4xl  mx-auto'>
