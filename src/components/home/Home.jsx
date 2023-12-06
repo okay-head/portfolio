@@ -24,15 +24,8 @@ export default function Home() {
 			md:grid grid-cols-2 items-center lg:mx-auto'
       >
         <div className='order-last relative -mt-8 md:mt-[unset]'>
-          {/* <m.img 
-
-					src="/assets/star-svgrepo-com.webp" alt="small star" className='w-5 absolute left-10' /> */}
           <m.img
             style={{ y }}
-            // style={{ y: scrollYProgress }}
-            // variants={floatVariants}
-            // initial = {{ y: '-20%'}}
-            // animate = {{ y: '0%'}}
             transition={{ delay: 0.2, duration: 1 }}
             className='mx-auto -mt-4 md:w-[80%] w-[90%] max-w-[400px]'
             src='/assets/Untitled_design-removebg-preview.webp'
