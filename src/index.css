@@ -68,17 +68,6 @@ body {
   transform-origin: left;
   transform: scaleX(1) !important;
 }
-
-/* .home::before {
-	background: url('/assets/64c71112-c87c-4874-b26d-30ca6454dd11.webp') black
-		center center no-repeat;
-	background-size: cover;
-	content: '';
-	position: absolute;
-	inset: 0;
-	display: block;
-	z-index: -1;
-} */
 #heroImg {
   object-fit: cover;
   width: 100%;
@@ -117,7 +106,7 @@ body {
 .social {
   transform: scale(0.85);
 }
-.social-container{
+.social-container {
   transform: scale(1.01);
 }
 .social-svg-icon,
