@@ -49,8 +49,6 @@ body {
 }
 
 /* connect btn animation */
-/* for gradient background */
-
 .connect-btn::before {
   content: '';
   position: absolute;
