@@ -6,7 +6,6 @@ export default function Anchor({
   linkTo,
   classVars,
   imgVars,
-  flag = false,
 }) {
   const { disabled, setDisabled } = useContext(NavContext)
 
