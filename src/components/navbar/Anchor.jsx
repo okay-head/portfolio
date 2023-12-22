@@ -1,12 +1,7 @@
 import { useContext } from 'react'
 import NavContext from './NavContextProvider'
 
-export default function Anchor({
-  children,
-  linkTo,
-  classVars,
-  imgVars,
-}) {
+export default function Anchor({ children, linkTo, classVars, imgVars }) {
   const { disabled, setDisabled } = useContext(NavContext)
 
   return (
