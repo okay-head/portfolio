@@ -11,9 +11,7 @@
 
 > <p align="center">My first real attempt at making a portfolio site. Designed in Figma.</p>
 
-## Demo
-
-[Live site](https://okay-head.netlify.app/)
+## [Demo](https://okay-head.netlify.app/)
 
 ![Site snapshot](./screenshot.webp)
 
