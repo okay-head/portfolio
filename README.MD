@@ -42,9 +42,10 @@ node v20.7.0
 
 ```sh
 pnpm install
+```
+&nbsp;&nbsp;&nbsp;&nbsp;or
 
-or
-
+```sh
 npm install
 ```
 
