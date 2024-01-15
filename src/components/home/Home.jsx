@@ -64,7 +64,8 @@ export default function Home() {
             >
               I am a developer who thrives on passion and curiosity. Currently,
               I’m focused on building responsive full-stack web applications
-              with serverless.
+              with serverless. I'm proficient in creating mockups and custom
+              components from the ground up.
             </m.div>
           </div>
         </div>
