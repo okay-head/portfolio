@@ -43,6 +43,7 @@ node v20.7.0
 ```sh
 pnpm install
 ```
+
 &nbsp;&nbsp;&nbsp;&nbsp;or
 
 ```sh
@@ -74,7 +75,7 @@ Give a ⭐️ if you liked this project!
 
 ## License
 
-Copyright © 2024 [Shashwat Jaiswal](https://github.com/okay-head).<br />
+Copyright © 2023 [Shashwat Jaiswal](https://github.com/okay-head).<br />
 This project is [MIT](/LICENSE) licensed.
 
 ## Acknowledgements
