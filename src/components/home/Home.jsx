@@ -1,5 +1,7 @@
+import { useMediaQuery } from 'react-responsive'
 import { motion as m, useScroll, useTransform } from 'framer-motion'
 export default function Home() {
+  const isMobile = useMediaQuery({ query: '(max-width: 640px)' })
   function useParallax(value, distance) {
     return useTransform(value, [0, 1], [0, 3 * distance])
   }
@@ -12,12 +14,17 @@ export default function Home() {
       id='home'
       className='home min-h-screen relative scroll-m-20 grid place-items-center md:block'
     >
-      <img
-        loading='eager'
-        src='/assets/64c71112-c87c-4874-b26d-30ca6454dd11.webp'
-        alt=''
-        id='heroImg'
-      />
+      {isMobile ? (
+        <img loading='eager' src='/assets/bg-mob.png' alt='' id='heroImg' />
+      ) : (
+        <img
+          loading='eager'
+          src='/assets/64c71112-c87c-4874-b26d-30ca6454dd11.webp'
+          alt=''
+          id='heroImg'
+        />
+      )}
+
       <div
         className='home-container max-w-[1000px] min-h-[80vh] 
 			py-5 mx-8
