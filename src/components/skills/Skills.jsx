@@ -12,7 +12,10 @@ export default function Skills() {
       path: '/assets/brand/react-1-logo-png-transparent-removebg-preview.webp',
     },
     { title: 'Tailwind', path: '/assets/brand/icons8-tailwind-css-480.webp' },
-    { title: 'Bootstrap', path: '/assets/brand/icons8-bootstrap-480.webp' },
+    {
+      title: 'MongoDB',
+      path: '/assets/brand/erkxwhl1gd48xfhe2yld-removebg-preview.webp',
+    },
     { title: 'Firebase', path: '/assets/brand/icons8-firebase-480.webp' },
     { title: 'jQuery', path: '/assets/brand/jquery-icon.webp' },
     {
