@@ -15,17 +15,12 @@ export default function Home() {
       className='home min-h-screen relative scroll-m-20 grid place-items-center md:block'
     >
       {isMobile ? (
-        <img
-          loading='eager'
-          src='/assets/mobile/bg.webp'
-          alt='bg image'
-          id='heroImg'
-        />
+        <img loading='eager' src='/assets/mobile/bg.webp' alt='' id='heroImg' />
       ) : (
         <img
           loading='eager'
           src='/assets/64c71112-c87c-4874-b26d-30ca6454dd11.webp'
-          alt='bg image'
+          alt=''
           id='heroImg'
         />
       )}
