@@ -124,7 +124,7 @@ body {
 }
 /* -- Hover animations for skill icons -- */
 div#skill-card-imgs > div {
-  transition: 0.18s ease-in-out all;
+  transition: 0.18s ease-in-out filter;
 }
 div[title='CSS']:hover {
   filter: drop-shadow(0 0 1em #0375bc);
