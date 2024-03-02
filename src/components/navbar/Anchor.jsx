@@ -8,7 +8,7 @@ export default function Anchor({ children, linkTo, classVars, imgVars }) {
     <a
       onClick={() => setDisabled((prev) => !prev)}
       href={'#' + linkTo}
-      className={`mx-4 relative group text-[0.9rem] ${classVars}`}
+      className={`mx-4 relative group md:text-[0.9rem] ${classVars}`}
     >
       {children}
       <img
