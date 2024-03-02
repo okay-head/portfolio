@@ -53,6 +53,7 @@ export default function Skills() {
         </div>
 
         <m.div
+          id='skill-card-imgs'
           variants={cardVariants}
           initial='initial'
           whileInView='view'

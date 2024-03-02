@@ -122,5 +122,43 @@ body {
 .hue {
   filter: hue-rotate(8deg);
 }
-
-/* filter: drop-shadow(0 0 2em #646cffaa); */
+/* -- Hover animations for skill icons -- */
+div#skill-card-imgs > div {
+  transition: 0.18s ease-in-out all;
+}
+div[title='CSS']:hover {
+  filter: drop-shadow(0 0 1em #0375bc);
+}
+div[title='HTML']:hover {
+  filter: drop-shadow(0 0 1em #e65300);
+}
+div[title='JS']:hover {
+  filter: drop-shadow(0 0 1em #f7e01d);
+}
+div[title='React']:hover {
+  filter: drop-shadow(0 0 1em #00d9fd);
+}
+div[title='Tailwind']:hover {
+  filter: drop-shadow(0 0 1em #01acc2);
+}
+div[title='MongoDB']:hover {
+  filter: drop-shadow(0 0 1em #00eb64);
+}
+div[title='Firebase']:hover {
+  filter: drop-shadow(0 0 1em #ffc400);
+}
+div[title='jQuery']:hover {
+  filter: drop-shadow(0 0 1em #21609a);
+}
+div[title='AWS']:hover {
+  filter: drop-shadow(0 0 1em #fafafacd);
+}
+div[title='Node']:hover {
+  filter: drop-shadow(0 0 1em #8cc500);
+}
+div[title='TypeScript']:hover {
+  filter: drop-shadow(0 0 1em #1977d2);
+}
+div[title='Scss']:hover {
+  filter: drop-shadow(0 0 1em #f06292);
+}
