@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import Anchor from './Anchor'
 import Wrapper from '../Wrapper'
 import close from './icons8-close-30.webp'
@@ -29,7 +28,9 @@ export default function Navbar() {
       style={{ transition: 'background ease-in 0.5s' }}
     >
       <Wrapper classVars={'flex py-5 items-center'}>
-        <Link className='font-bold'>@okay-head</Link>
+        <a href='#' className='font-bold'>
+          @okay-head
+        </a>
 
         <nav className='hidden md:flex ms-auto items-center'>
           <Anchor linkTo='home'>HOME</Anchor>
