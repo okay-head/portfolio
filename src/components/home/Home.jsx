@@ -1,14 +1,6 @@
 import { useMediaQuery } from 'react-responsive'
-import { motion as m, useScroll, useTransform } from 'framer-motion'
 export default function Home() {
   const isMobile = useMediaQuery({ query: '(max-width: 640px)' })
-  function useParallax(value, distance) {
-    return useTransform(value, [0, 1], [0, 3 * distance])
-  }
-
-  const { scrollYProgress } = useScroll()
-  const y = useParallax(scrollYProgress, 100)
-
   return (
     <section
       id='home'
@@ -31,9 +23,7 @@ export default function Home() {
 			md:grid grid-cols-2 items-center lg:mx-auto'
       >
         <div className='order-last relative -mt-8 md:mt-[unset]'>
-          <m.img
-            style={{ y }}
-            transition={{ delay: 0.2, duration: 1 }}
+          <img
             className='mx-auto -mt-4 md:w-[80%] w-[90%] max-w-[400px]'
             src='/assets/Untitled_design-removebg-preview.webp'
             alt='Astronaut using a laptop'
@@ -42,38 +32,21 @@ export default function Home() {
 
         <div className='text-base md:text-lg mb-16 md:mb-0'>
           <div className='overflow-hidden'>
-            <m.h1
-              initial={{ y: '100%' }}
-              animate={{ y: 0 }}
-              transition={{ delay: 0.2, duration: 0.3 }}
-              className='text-4xl md:text-5xl'
-            >
-              Hi!
-            </m.h1>
+            <h1 className='text-4xl md:text-5xl'>Hi!</h1>
           </div>
           <div className='overflow-hidden  mb-4'>
-            <m.h1
-              initial={{ y: '100%' }}
-              animate={{ y: 0 }}
-              transition={{ delay: 0.4, duration: 0.5 }}
-              className='text-4xl md:text-5xl'
-            >
-              I'm Shashwat Jaiswal
-            </m.h1>
+            <h1 className='text-4xl md:text-5xl'>I'm Shashwat Jaiswal</h1>
           </div>
           <div>
-            <m.div
-              initial={{ y: '50%', opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
+            <div
               // viewport={{ once: true, amount: 0.2 }}
-              transition={{ delay: 0.5, duration: 0.6 }}
               className='text-[var(--white-2)]'
             >
               I am a developer who thrives on passion and curiosity. Currently,
               I’m focused on building responsive full-stack web applications
               with serverless. I'm proficient in creating mockups and custom
               components from the ground up.
-            </m.div>
+            </div>
           </div>
         </div>
       </div>
