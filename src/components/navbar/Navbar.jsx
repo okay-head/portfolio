@@ -29,7 +29,7 @@ export default function Navbar() {
       style={{ transition: 'background ease-in 0.5s' }}
     >
       <Wrapper classVars={'flex py-5 items-center'}>
-        <Link className='font-bold text-base md:text-lg py-2'>PORTFOLIO</Link>
+        <Link className='font-bold'>@okay-head</Link>
 
         <nav className='hidden md:flex ms-auto items-center'>
           <Anchor linkTo='home'>HOME</Anchor>
@@ -37,7 +37,7 @@ export default function Navbar() {
           <Anchor linkTo='projects'>PROJECTS</Anchor>
           <a
             href='#contact'
-            className='connect-btn relative  nav-link ms-4 me-0 p-2 rounded-sm'
+            className='connect-btn relative text-[0.9rem] nav-link ms-2 me-0 p-2 rounded-sm'
           >
             LET'S CONNECT
           </a>
