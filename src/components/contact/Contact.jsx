@@ -31,8 +31,8 @@ export default function Contact() {
       className='contact bg-[var(--bg-purple)]  py-[var(--p-section-y)] scroll-mt-[4.5rem] relative'
     >
       <Wrapper>
-        <H1 classVars='mb-4'>Contact</H1>
-        <div className='text-center lg:text-lg mb-10 text-[var(--white-2)] max-w-4xl  mx-auto'>
+        <H1 classVars='mb-5'>Contact</H1>
+        <div className='text-center lg:text-lg mb-16 text-[var(--white-2)] max-w-4xl  mx-auto'>
           If you like my work, consider adding a
           <svg
             xmlns='http://www.w3.org/2000/svg'
