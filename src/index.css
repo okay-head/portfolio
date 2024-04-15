@@ -71,8 +71,10 @@ body {
 }
 
 .cardAnchor:hover {
-  transition: 0.3s ease-out transform;
-  transform: scale(0.95);
+  box-shadow:
+    0px 4px 2px black,
+    0px 6px 2px #00000040;
+  border-radius: 50%;
 }
 
 .text-gradient {
