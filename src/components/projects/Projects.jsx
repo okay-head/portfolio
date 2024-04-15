@@ -45,37 +45,31 @@ export default function Projects() {
           />
 
           <Card
-            source={`././assets${
-              isMobile ? '/mobile' : ''
-            }/gradient-generator-snapshot-II.webp`}
-            alt={'Gradient generator'}
-            caption={'Gradient generator'}
-            code_url={'https://github.com/okay-head/Gradient-generator'}
-            live_url={'https://okay-head.github.io/Gradient-generator/'}
+            source={`././assets/wordwave.webp`}
+            alt={'Wordwave'}
+            caption={'Wordwave'}
+            code_url={'https://github.com/okay-head/WordWave'}
+            live_url={'https://word-wave-deployment.vercel.app/'}
             id={3}
           />
 
           {/* -------------------- */}
           <Card
-            source={`././assets${
-              isMobile ? '/mobile' : ''
-            }/Blog-site-snapshot-1.webp`}
-            alt={'Blog site'}
-            caption={'On The Blog'}
-            live_url={'https://blog-site-ecru-phi.vercel.app/'}
-            code_url={'https://github.com/okay-head/Blog-site'}
+            source={`././assets/studyforge.webp`}
+            alt={'Study forge'}
+            caption={'Ed tech landing page'}
+            live_url={'https://studyforge-edtech.vercel.app/'}
+            code_url={'https://github.com/okay-head/EdTech-Landingpage'}
             id={4}
           />
 
           <Card
-            source={`././assets${
-              isMobile ? '/mobile' : ''
-            }/ableton-snapshot-home-IIII.webp`}
-            alt={'Ableton'}
-            caption={'Ableton'}
+            source={`././assets/johndoe.webp`}
+            alt={"John Doe's portfolio"}
+            caption={"John Doe's portfolio"}
             cls={'row-span-2'}
-            live_url={'https://okay-head.github.io/Ableton/'}
-            code_url={'https://github.com/okay-head/Ableton'}
+            live_url={'https://portfoli0v2.netlify.app/'}
+            code_url={'https://github.com/okay-head/johndoe-portfolio'}
             id={5}
           />
 
